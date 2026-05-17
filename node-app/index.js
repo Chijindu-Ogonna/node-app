@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('🚀 DevOps Capstone App is Running!');
+  res.send('🚀 ChijinduOgonna DevOps App With Domain Name Is Running!');
 });
 
 app.get('/health', (req, res) => {
